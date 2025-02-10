@@ -7,3 +7,4 @@ erdiagram
 
 CUSTOMER ||--o{ PRODUCT : orders} 
 SALES ||--o{ INVENTORY : Checks}
+```
