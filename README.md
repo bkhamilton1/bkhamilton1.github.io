@@ -7,15 +7,15 @@ This respository will hold assignments.
 
 # About Me.
 ## My Interests.
-1. Golf
+1. **Golf**
   * Golf Course Architecture
   * Golf Travel
-  * **Actually Playing Golf**
- 2. Cooking
+  * Actually _Playing_ Golf
+ 2. **Cooking**
   * Sourdough Baking
   * Grilling and Smoking
   * Cool cooking tools and utensils
- 3. Furniture Making
+ 3. **Furniture Making**
   * Designing and making my own hardwood furniture
   * I enjoy hand tools and machines both
   * I do this in half of my garage
