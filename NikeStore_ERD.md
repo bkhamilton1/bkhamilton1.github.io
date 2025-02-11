@@ -7,7 +7,7 @@ erDiagram
             string email PK
             }
             
-            SALES ||--o{ INVENTORY : compared_against
+            SALES ||--|| INVENTORY : compared_against
             SALES {
             string name
           string address
