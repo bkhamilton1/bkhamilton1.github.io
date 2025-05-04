@@ -22,7 +22,7 @@ xhr.send();
 function populateGradebook(data) {
     // This function will take the fetched grade data and populate the table 
     console.log("Populating gradebook with data:", data);
-let TableElm = document.getElementById("gradebook");
+let tableElm = document.getElementById("gradebook");
     data.forEach(function(assignment){
         let row = document.createElement("tr");
         let columns = [];
@@ -31,16 +31,16 @@ let TableElm = document.getElementById("gradebook");
             document.createTextNode(assignment.last_name + ", " + assignment.first_name)
                     );
                     columns.grade = document.createElement('td');
-                    columns.grade.appendchild(
+                    columns.grade.appendChild(
                         document.createTextNode(assignment.total_grade)
                     );
                     row.appendChild(columns.name);
                     row.appendChild(columns.grade);
-                    TableElm.appendChild(row);
+                    tableElm.appendChild(row);
     });
 }
 //TODO REMOVE THIS
 // Call the stubs to demonstrate the workflow
-const gradedata = fetchGradeData();
-populateGradebook(gradedata);
+const gradeData = fetchGradeData();
+populateGradebook(gradeData);
 //END REMOVE
